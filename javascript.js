@@ -1,4 +1,3 @@
-
 var choices = ["rock", "paper", "scissors"];
 let message;
 let result;
@@ -10,12 +9,6 @@ const loss = "You lose!"
 function getComputerChoice() {
     return choices[Math.floor(Math.random() * choices.length)];
 }
-
-// function getComputerChoice() {
-//     var computerSelection = choices[Math.floor(Math.random() * choices.length)];
-//     console.log("CPU: ", computerSelection);
-//     return computerSelection;
-// }
 
 function playRound(playerSelection, computerSelection) {
     
@@ -49,5 +42,3 @@ function game(){
 }
 
 game();
-
-
